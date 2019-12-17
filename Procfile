@@ -1,0 +1,1 @@
+web: cd django-todo-react/backend && python manage.py migrate && gunicorn backend.wsgi
